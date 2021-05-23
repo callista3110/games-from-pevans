@@ -11,8 +11,27 @@ h2{
     font-weight: 500;
     font-size:16px;
     text-align: center;
-}
 
+}
+.pagination a {
+    color: black;
+    background-color: #E3E3E3;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    margin: 0 2px;
+
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
 
 .grid-item{
     background-image: url(thoughtfully.svg);
@@ -40,6 +59,7 @@ h2{
     display: block;
     background-color:#1F1F1F;
     color: white;
+
   }
   
   /* Style the hamburger menu */
@@ -64,4 +84,5 @@ h2{
     margin-right: auto;
     top: 0%;
     height: 100%;
+
   }
