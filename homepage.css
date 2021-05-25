@@ -14,9 +14,43 @@ h2{
 }
 
 
-.grid-item{
-    background-image: url(thoughtfully.svg);
+h3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #064FA5;
+  color: white;
+  font-weight: 300;
+
 }
+
+.item1 { 
+grid-area: thoughtfully;}
+.item2 { 
+grid-area: flotsamPromo;
+background-size: 100%;
+background-size: cover;
+background-image: url('img/flotsampromo.jpeg');
+ }
+
+.item3 { 
+  grid-area: flotsam; 
+  background-size: 100%;
+  background-size: cover;
+  background-image: url('img/flotsam.svg');
+}
+
+
+
+.grid-container  {
+  display: grid;
+  grid-template-areas:
+  'thoughtfully thoughtfully'
+  'flotsamPromo flotsam';
+  grid-template-rows: 170px 120px;
+}
+
 
 /* Style the navigation menu */
 .topnav {
@@ -57,7 +91,7 @@ h2{
   }
   
   /* Style the active link (or home/logo) */
-  img {
+  .topnav img{
     width: 100px;
     display: block;
     margin-left: auto;
