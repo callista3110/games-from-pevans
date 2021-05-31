@@ -34,17 +34,27 @@ h3 {
 }
 
 .item1 { 
-grid-area: thoughtfully;}
+grid-area: thoughtfully;
+}
+
+.img-thoughtfully {
+  width: 100%;
+}
+
+img.item1 {
+  width: 100%;
+}
+
+
 .item2 { 
 grid-area: flotsamPromo;
-background-size: 100%;
+width: 50%;
 background-size: cover;
 background-image: url('img/flotsampromo.jpeg');
  }
 
 .item3 { 
   grid-area: flotsam; 
-  background-size: 100%;
   background-size: cover;
   background-image: url('img/flotsam.svg');
 }
