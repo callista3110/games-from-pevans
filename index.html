@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="topnav">
-        <img src="../img/gas.svg" alt="hamburger">
+        <img class="logo" src="../img/Pevanslogo.svg" alt="Games from pevans logo">
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
           <a href="#news">Board Games</a>
@@ -22,7 +22,7 @@
           <a href="#about">Sale</a>
         </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
@@ -54,24 +54,27 @@
 
     <div class="product-grid__product-wrapper">
         <div class="product-grid">
-            <div class="productImg">			
+            <div class="productImgBox">			
                 <img class="productImg" src="../img/agra.png" alt="Agra" class="product-grid__img" />
             </div>
             <div class="product">
             <p class="productSpecial">Pevan's Pick</p>
             <p class="productTitle">Product title</->
             <p class="productPrice">£50.00</p>
-            <span class="productAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</span>				
+            <div class="productAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</div>	
+            <p class="productLow">Only 5 more left!</p>
+	
             </div>
             </div>
-            <button type="btn-seeMore">See More</button>
+            <button class="btn-more" type="go">See More</button>
 
     </div>
     
-    <div>
-        <h1>Stock up for a rainy day.</h1>
-        <h2>20% off all puzzles</h2>
-        <button type="btn-puzzles">View Puzzles</button>
+    <div class="promo">
+        <h1 class="promo">Stock up for a rainy day.</h1>
+        <h2 class="promo">20% off all puzzles</h2>
+        <button class="btn-puzzles" type="Go">View Puzzles</button>
+        <img class="img-puzzle" src="../img/puzzle.svg">
     </div>
 
     <div>

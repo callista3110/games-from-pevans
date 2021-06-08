@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Avenir', Helvetica, sans-serif;
+    margin: 0px;
 }
 
 h1{
@@ -80,17 +81,28 @@ background-image: url('img/flotsampromo.jpeg');
   line-height: 12px;
 }
 
-.productImg{
-  background-color: #E3E3E3 ;
+.productImgBox{
   width: 150px;
+  background-color: #E3E3E3 ;
   height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.productImg{
+    width: 100px;
+  height: 100px;
   text-align: center;
+  display: block;
   /* padding-top: 20px; */
 }
 
 img.product-grid__img{
  width:50%;
  padding:auto;
+ margin-left: auto;
+ margin-right: auto;
 
 }
 
@@ -98,6 +110,8 @@ p.productSpecial{
 color: #064FA5;
 font-size: 14px;
 margin: 0px;
+padding-top: 10px;
+
 
 }
 
@@ -111,15 +125,79 @@ margin: 0px;
 p.productPrice{
   font-size: 16px;
   margin-top: 2px;
+  margin-bottom: 5px;
 
 }
+
+.promo{
+  /* width: 100%; */
+  background-color: #171717;
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+
+
+}
+
+h1.promo {
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+h2.promo {
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+button.btn-more {
+  background-color: transparent;
+  border: 1px solid #707070;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  margin-top: 20px;
+
+}
+
+button.btn-puzzles {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding:10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  width: 170px;
+}
+
+img.img-puzzle{
+  width: 50px;
+  float: right;
+  margin-right: 30px;
+  margin-top: -20px;
+}
+
+
+
 
 .productAdd{
   color: white;
   background-color: black;
   font-size: 14px;
   padding: 5px;
+  width: 130px;
+  text-align: center;
 }
+
+i.fa.fa-cart-arrow-down {
+  padding-right: 5px;
+}
+
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
@@ -136,34 +214,43 @@ p.productPrice{
   
   /* Style navigation menu links */
   .topnav a {
-    padding: 14px 16px;
+    padding: 15px 20px;
+    /* padding-top: 20px; */
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     display: block;
     background-color:#1F1F1F;
     color: white;
   }
   
   /* Style the hamburger menu */
-  .topnav a.icon {
+  .topnav a.hamburger {
     display: block;
     position: absolute;
     left: 0;
     top: 0;
+    background-color:transparent;
+    color: black;
+    /* color: pink; */
   }
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    /* background-color: rgb(0, 0, 0); */
+    color:black;
   }
   
   /* Style the active link (or home/logo) */
   .topnav img{
-    width: 100px;
+    width: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
     top: 0%;
     height: 100%;
+  }
+
+  .hamburger {
+    background-color: tr;
   }
