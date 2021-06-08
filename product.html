@@ -8,14 +8,32 @@
     <title>Games-From-Pevans</title>
 </head>
 <body>
+    <div class="topnav">
+        <img class="logo" src="../img/Pevanslogo.svg" alt="Games from pevans logo">
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#news">Board Games</a>
+          <a href="#contact">Card Games</a>
+          <a href="#about">Strategy Games</a>
+          <a href="#about">Puzzles</a>
+          <a href="#about">Blog</a>
+          <a href="#about">Sale</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
     <div class ="banner">
         <h3>FREE SHIPPING FOR ORDERS OVER £50.00</h3>
     </div>
-    <div class ="productTitle">
+    <div class ="productCategory">
+        <!-- <div class="categoryLayer"></div> -->
         <h1>Board Games</h1>
     </div>
 
-    <p>Home > Boardgames</p>
+    <p class="breadcrumbs">Home > Boardgames</p>
 
     <div class ="filter">
     <i class="fas fa-sliders-h"></i>
@@ -23,13 +41,16 @@
 </div>
 
 <div class="sidebar">
-    <div class="container-stock">
+    <div class="sidebarContainer container-stock">
         <h2>Show items out of stock?</h2>
+        <div class="container">
         <button type="button" class="btn-show">Show</button>
         <button type="button" class="btn-hide">Hide</button>
     </div>
-    <div class="container-price">
+    </div>
+    <div class="sidebarContainer container-price">
         <h2>Price Range</h2>
+        <div class="container">
         <input type="radio" id="price-range" name="price-range" value="£0 - £50">
         <label for="lowest">£0 - £50</label>
         <br>
@@ -42,8 +63,10 @@
         <input type="radio" id="£50 - £100" name="price-range" value="£50 - £100">
         <label for="lowest">>£150</label>
     </div>
-    <div class="container-categories">
+</div>
+    <div class="sidebarContainer container-categories">
         <h2>Categories</h2>
+        <div class="container">
         <input type="radio" id="price-range" name="price-range" value="£0 - £50">
         <label for="lowest">Best Sellers</label>
         <br>
@@ -56,12 +79,14 @@
         <input type="radio" id="£50 - £100" name="price-range" value="£50 - £100">
         <label for="lowest">Sale</label>
     </div>
+
+    </div>
     <button type="button" class="btn-clear">Clear all filters</button>
 </div>
 
 
 <div class="bottomNav">
-    <h3>SHOWING 20 OF 178 ITEMS</h3>
+    <p>SHOWING 20 OF 178 ITEMS</p>
     <img src="../img/slider.svg" alt="slider">
     <button type="button" class="btn">View More Products</button>
     <div class="pagination">

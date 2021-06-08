@@ -53,4 +53,38 @@
    .quantity.buttons_added .plus:focus {
     outline: none; }
    
-   
+    @font-face {
+        font-family: 'Avenir';
+        src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'), url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf') format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+        }
+    
+    body{
+        font-family: 'Avenir', Helvetica, sans-serif;
+        margin: 0px;
+    }
+    
+    h1{
+      text-align: center;
+      font-size: 16px;
+      margin-top: 30px;
+    
+    }
+    
+    
+    h2{
+        font-weight: 500;
+        font-size:16px;
+        text-align: center;
+    }
+    
+    
+    h3 {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 12px;
+      text-align: center;
+      background-color: #064FA5;
+      color: white;
+      font-weight: 300;
+      margin: 0em;
+    }   

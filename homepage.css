@@ -34,41 +34,47 @@ h3 {
   margin: 0em;
 }
 
-.item1 { 
-grid-area: thoughtfully;
-}
-
-.img-thoughtfully {
-  width: 100%;
-}
-
-img.item1 {
-  width: 100%;
-}
-
-
-.item2 { 
-grid-area: flotsamPromo;
-width: 50%;
-background-size: cover;
-background-image: url('img/flotsampromo.jpeg');
- }
-
-.item3 { 
-  grid-area: flotsam; 
-  background-size: cover;
-  background-image: url('img/flotsam.svg');
-}
-
-
-.grid-container-pics  {
+.promoGrid {
   display: grid;
-  grid-template-areas:
-  'thoughtfully thoughtfully'
-  'flotsamPromo flotsam';
-  grid-template-rows: 170px 120px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: (2, 10vw);
+  /* grid-template-areas: "thoughtfully thoughtfully"
+"flotsamPromo flotsam"; */
+
+
+  /* grid-auto-rows: repeat(2, 10vw); */
 }
 
+.promoImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* display: block; */
+} 
+
+.thougtfully {
+  grid-column-start: 1;
+  grid-column-start: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.flotsamPromo {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  /* background-color: black; */
+
+}
+
+ .flotsam {
+  grid-row: 2 / span 3;
+  grid-column-start: 3;
+  grid-column-start: 5;
+  /* background-color: blue; */
+ } 
 
 .message {
   display:grid;
@@ -91,8 +97,8 @@ background-image: url('img/flotsampromo.jpeg');
 
 }
 .productImg{
-    width: 100px;
-  height: 100px;
+    width: 90px;
+  height: 90px;
   text-align: center;
   display: block;
   /* padding-top: 20px; */
@@ -151,15 +157,19 @@ h2.promo {
 
 }
 
+.btn-more-wrapper{
+  text-align: center;
+}
+
 button.btn-more {
   background-color: transparent;
   border: 1px solid #707070;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-right: 10px;
+  padding-right: 20px;
   margin-top: 20px;
-
+  border-radius: 5px;
 }
 
 button.btn-puzzles {
@@ -182,7 +192,12 @@ img.img-puzzle{
   margin-top: -20px;
 }
 
-
+.productGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 10rem);
+  grid-gap: 10px;
+  justify-content: center;
+}
 
 
 .productAdd{
@@ -190,13 +205,30 @@ img.img-puzzle{
   background-color: black;
   font-size: 14px;
   padding: 5px;
-  width: 130px;
+  width: 90%;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.productLow{
+  margin-top: 5px;
+  font-size: 15px;
 }
 
 i.fa.fa-cart-arrow-down {
   padding-right: 5px;
 }
+
+i.fa.fa-heart-o {
+  margin-top: 115px;
+  position: absolute;
+  margin-left: 115px;
+  font-size: 15px;
+  color: gray;
+
+}
+
 
 /* Style the navigation menu */
 .topnav {
