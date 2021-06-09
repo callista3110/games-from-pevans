@@ -286,3 +286,27 @@ i.fa.fa-heart-o {
   .hamburger {
     background-color: tr;
   }
+
+  .footer-container{
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E7EAF0;
+    align-content: space-between;  }
+
+  .logoContainer{
+    width: 300px;
+    text-align: center;
+  }
+  .footer-logo{
+    width: 200px;
+  }
+
+  .footerItem{
+    padding-left: 20px;
+  }
+
