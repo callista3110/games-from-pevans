@@ -3,42 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="listing.css" />
     <script src="script.js"></script>
     <title>Games-From-Pevans</title>
 </head>
 <body>
-    <div class="product1">
-        <img src="../img/21B.png" alt="21B Baker Street">
-        <img src="../img/21B2.png" alt="21B Baker Street">
-        <img src="../img/21Bbox.png" alt="21B Baker Street">
+
+    <div class="topnav">
+        <img class="logo" src="img/Pevanslogo.svg" alt="Games from pevans logo">
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#news">Board Games</a>
+          <a href="#contact">Card Games</a>
+          <a href="#about">Strategy Games</a>
+          <a href="#about">Puzzles</a>
+          <a href="#about">Blog</a>
+          <a href="#about">Sale</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class ="banner">
+        <h3>FREE SHIPPING FOR ORDERS OVER £50.00</h3>
+        </div>
+
+    <div class="content">
+        <p class="breadcrumbs">Home > Boardgames</p>
+
+    <div class="imgWrap">
+    <div class="containerWrap">
+    <div class="imgContainer1">
+        <img class="productImg1" src="img/21B.png" alt="21B Baker Street">
     </div>
-<h3>Pevan's Pick</h3>
-<h1>221B Baker Street</h1>
-<i class="far fa-heart"></i>
-<!-- <i class="fas fa-heart"></i> -->
-<h3>£50.00</h3>
-<p>For 2-6 players | Suitable for ages 10+ | Playing time: 90 minutes</p>
+</div>
+<div class="containerWrap2">
+
+    <div class="imgContainer2">
+        <img class="productImg2" src="img/21B2.png" alt="21B Baker Street">
+    </div>
+    <div class="imgContainer3">
+        <img class="productImg3"src="img/21Bbox.png" alt="21B Baker Street">
+    </div>
+    </div>
+</div>
+
+<p class="productSpecial">Pevan's Pick</p>
+<h1><span>221B Baker Street</span>
+<i class="fa fa-heart"></i></h1>
+<h2>£50.00</h2>
 <div class="quantity buttons_added">
     <input type="button" value="-" class="minus">
     <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
     <input type="button" value="+" class="plus">
 </div>
-<p>221B Baker Street is the London address of the world’s most celebrated fictional detective, Sherlock Holmes, and his dedicated companion, Dr. Watson. In this game you start at 221B and travel through.. the streets and alleys of London picking up clues and attempting to solve the most intriguing cases Holmes and Watson have ever faced…</p>
+<br>
+<a href="cart.html" class="productAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</a>	
 
+<p>For 2-6 players | Suitable for ages 10+ | Playing time: 90 minutes</p>
+
+<p class="productDesc">221B Baker Street is the London address of the world’s most celebrated fictional detective, Sherlock Holmes, and his dedicated companion, Dr. Watson. In this game you start at 221B and travel through.. the streets and alleys of London picking up clues and attempting to solve the most intriguing cases Holmes and Watson have ever faced…</p>
+<br>
+<div class="reviewContainer">
 <div class="review">
-    <h2>Pevans' Review</h2>
-    <p>The famous address of Sherlock Holmes gives away what this game is about: it’s a classic deduction game with the players racing to solve some of Holmes’s cases. Players travel around London (the board), visiting the places suggested in the case notes to find the clues that will help them work out the culprit. First to return to Baker Street and identify whodunnit wins the game. And then… to the next case! (I hope you have your trusty service revolver, Watson.) 221B Baker Street has been in print for over 40 years with this latest edition coming from Gibsons. There are 75 cases in the box, so there’s plenty of replay value.</p>
+    <h2 class="h2-review">Pevans' Review</h2>
+    <p class="p-review">The famous address of Sherlock Holmes gives away what this game is about: it’s a classic deduction game with the players racing to solve some of Holmes’s cases. Players travel around London (the board), visiting the places suggested in the case notes to find the clues that will help them work out the culprit. First to return to Baker Street and identify whodunnit wins the game.</p>
 </div>
-
 <div class="rating">
-    <h2>Pevans' Rating</h2>
-    <p>Player Interaction</p>
-    <p>Replayability</p>
-    <p>Complexibility</p>
+    <h2 class="h2-rating">Pevans' Rating</h2>
+    <div class="p-rating">
+ <img class="ratingImg" src="img/rating.svg" alt="Pevans' Rating">
 </div>
 
+</div>
+</div>
 <h1>Related Products</h1>
-
+</div>
 </body>
 </html>

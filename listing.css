@@ -1,7 +1,73 @@
+.content{
+  margin-left: 15vw;
+  margin-right: 15vw;
+
+}
+
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  color: black;
+
+}
+
+/* Style navigation menu links */
+.topnav a {
+  padding: 15px 20px;
+  /* padding-top: 20px; */
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  background-color:#1F1F1F;
+  color: white;
+}
+
+/* Style the hamburger menu */
+.topnav a.hamburger {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color:transparent;
+  color: black;
+  /* color: pink; */
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  /* background-color: rgb(0, 0, 0); */
+  color:black;
+}
+
+/* Style the active link (or home/logo) */
+.topnav img{
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  top: 0%;
+  height: 100%;
+}
+
+
+
+
+
 /* -- quantity box -- */
 
 .quantity {
-    display: inline-block; }
+  margin-top: 10px;
+    display: inline-block; 
+  }
    
    .quantity .input-text.qty {
     width: 35px;
@@ -9,7 +75,7 @@
     padding: 0 5px;
     text-align: center;
     background-color: transparent;
-    border: 1px solid #efefef;
+    border: 1px solid #E3E3E3;
    }
    
    .quantity.buttons_added {
@@ -30,7 +96,7 @@
     padding: 7px 10px 8px;
     height: 41px;
     background-color: #ffffff;
-    border: 1px solid #efefef;
+    border: 1px solid#E3E3E3;
     cursor:pointer;}
    
    .quantity.buttons_added .minus {
@@ -64,9 +130,10 @@
     }
     
     h1{
-      text-align: center;
-      font-size: 16px;
-      margin-top: 30px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 0px;
+
     
     }
     
@@ -74,10 +141,41 @@
     h2{
         font-weight: 500;
         font-size:16px;
-        text-align: center;
+        margin: 0px;
+    }
+    .h2-review{
+      background-color: #1F1F1F;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .h2-rating{
+      background-color: #1F1F1F;
+      color: white;
+      padding: 10px;
+      text-align: center;
     }
     
-    
+    .p-review {
+      margin-top: 0px;
+      background-color: #2e2d2d;
+      color: white;
+      padding: 20px;
+      font-size: 16px;
+    }
+    .p-rating {
+      margin-top: 0px;
+      background-color: #2e2d2d;
+      color: white;
+      padding: 20px;
+      font-size: 16px;
+    }
+
+    .ratingImg{
+      width: 100%;
+    }
+
     h3 {
       padding-top: 5px;
       padding-bottom: 5px;
@@ -88,3 +186,96 @@
       font-weight: 300;
       margin: 0em;
     }   
+
+    p {
+      margin-bottom: 0px;
+    }
+
+    p.productSpecial {
+      color: #064FA5;
+
+    }
+
+  
+    .reviewContainer {
+      /* display: flex; */
+      
+    }
+
+    .review {
+      width: 100%;
+    }
+    .containerWrap {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+
+    }
+
+    .containerWrap2 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+
+    }
+    .imgContainer1 {
+      width: 100%;
+      background-color: #E3E3E3 ;
+      height: 190px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .imgContainer2{
+      width: 50%;
+      background-color: #E3E3E3 ;
+      height: 130px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      
+    }
+    .imgContainer3{
+      width: 50%;
+      background-color: #E3E3E3 ;
+      height: 130px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .productImg1 {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: block;
+    }
+
+    .productImg2 {
+    width: 90px;
+    height: 70px;
+    text-align: center;
+    display: block;
+    }
+
+    .productImg3 {
+      width: 70px;
+      height: 70px;
+      text-align: center;
+      display: block;
+      }
+
+      .productAdd{
+        margin-top: 10px;
+        color: white;
+        background-color: black;
+        font-size: 14px;
+        padding: 5px;
+        width: 150px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+line-height: 30px;      }
