@@ -51,9 +51,7 @@ h3 {
   /* Add a grey background color on mouse-over */
   .pagination a:hover:not(.active) {background-color: #ddd;}
 
-.grid-item{
-    background-image: url(thoughtfully.svg);
-}
+
 
 * Style the navigation menu */
 .topnav {
@@ -155,10 +153,10 @@ h3 {
     padding: 5px;
   }
 
-  h2{
-   
-    /* text-transform: uppercase; */
+  .sidebar{
+  display: none;
 }
+
 
 .sidebarContainer {
   width: 200px;
@@ -167,9 +165,165 @@ h3 {
   
 }
   .container {
-    background-color: grey;
+    background-color: #E7EAF0;
     height: auto;
     padding: 15px;
-    color: white;
     font-size: 14px;
   }
+
+
+
+.productImgBox{
+  width: 150px;
+  background-color: #E3E3E3 ;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.productImg{
+    width: 90px;
+  height: 90px;
+  text-align: center;
+  display: block;
+  /* padding-top: 20px; */
+}
+
+img.product-grid__img{
+ width:50%;
+ padding:auto;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+p.productSpecial{
+color: #064FA5;
+font-size: 14px;
+margin: 0px;
+padding-top: 10px;
+
+
+}
+
+p.productTitle{
+font-size: 16px;
+font-weight: 500;
+margin: 0px;
+
+}
+
+p.productPrice{
+  font-size: 16px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+
+}
+
+.promo{
+  /* width: 100%; */
+  background-color: #171717;
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+
+
+}
+
+h1.promo {
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+h2.promo {
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.btn-more-wrapper{
+  text-align: center;
+}
+
+button.btn-more {
+  background-color: transparent;
+  border: 1px solid #707070;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  margin-top: 5x;
+  border-radius: 5px;
+}
+
+button.btn-puzzles {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding:10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  width: 170px;
+}
+
+img.img-puzzle{
+  width: 50px;
+  float: right;
+  margin-right: 30px;
+  margin-top: -20px;
+}
+
+.productGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 10rem);
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+
+.productAdd{
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  padding: 5px;
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.productLow{
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+i.fa.fa-cart-arrow-down {
+  padding-right: 5px;
+}
+
+.bottomNav {
+  text-align: center;
+}
+
+.paginationContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.slider {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+
+.filter {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
