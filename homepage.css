@@ -339,7 +339,7 @@ i.fa.fa-heart-o {
 }
 
 .productImgBox{
-  width: 150px;
+  width: 100%;
   background-color: #E3E3E3 ;
   height: 150px;
   display: flex;
@@ -348,7 +348,7 @@ i.fa.fa-heart-o {
 
 }
 .productImg{
-    width: 90px;
+  width: 90px;
   height: 90px;
   text-align: center;
   display: block;
@@ -487,18 +487,18 @@ img.img-puzzle{
   }
 
 
-  @media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) {
 
-    .promoContainer {
+.promoContainer {
       width: 900px;
     }
-  /* Add a black background color to the top navigation */
+
+
 .topnav {
   overflow: hidden;
   width: 100%;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -535,17 +535,19 @@ img.img-puzzle{
   padding-top: 0px;
 }
 
-.myLinks {
-  padding-left: 10%;
-}
+
 .categoryRight {
   padding-left: 100px;
 }
 
 .navbar {
-  background-color: black;
+  background-color: #1F1F1F;
 }
 
+.messageWrap {
+  background-color: #1F1F1F;
+
+}
 .logo{
   /* width: 80px; */
   display: block;
@@ -576,6 +578,8 @@ img.icon {
   margin-right: auto;
 
 }
+
+
 
 .topNavBar {
   display: grid;
