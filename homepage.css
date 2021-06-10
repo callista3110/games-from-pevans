@@ -1,250 +1,46 @@
 @font-face {
-    font-family: 'Avenir';
-    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'), url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf') format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
-    }
+  font-family: 'Avenir';
+  src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'), url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf') format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
 
 body{
-    font-family: 'Avenir', Helvetica, sans-serif;
+    font-size: 16px;
     margin: 0px;
+    font-family: 'Avenir', Helvetica, sans-serif;
 }
+
+
+/*typography*/
 
 h1{
   text-align: center;
   font-size: 16px;
   margin-top: 30px;
-
+  font-weight: 600;
+  margin-bottom: 50px;
 }
-
-.productTitle{
-  font-size: 16px;
-  margin-top: 30px;
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-
-}
-
-
 
 h2{
-    font-weight: 500;
-    font-size:16px;
-    text-align: center;
+  font-weight: 500;
+  font-size:16px;
+  text-align: center;
 }
 
-
-h3 {
+.banner {
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 12px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
   text-align: center;
   background-color: #064FA5;
   color: white;
-  font-weight: 300;
   margin: 0em;
-}
-
-.promoGrid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: (2, 10vw);
-  /* grid-template-areas: "thoughtfully thoughtfully"
-"flotsamPromo flotsam"; */
-
-
-  /* grid-auto-rows: repeat(2, 10vw); */
-}
-
-.promoImg{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* display: block; */
-} 
-
-.thougtfully {
-  grid-column-start: 1;
-  grid-column-start: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.flotsamPromo {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 3;
-
-  /* background-color: black; */
-
-}
-
- .flotsam {
-  grid-row: 2 / span 3;
-  grid-column-start: 3;
-  grid-column-start: 5;
-  /* background-color: blue; */
- } 
-
-.message {
-  display:grid;
-  grid-template-columns: 33% 33% 33%;
-  text-align: center;
-  background-color: black;
-  color: white;
-  font-size: 0.7em;
-  padding: 3% 3% 3% 3%;
-  line-height: 12px;
-}
-
-.productImgBox{
-  width: 150px;
-  background-color: #E3E3E3 ;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.productImg{
-    width: 90px;
-  height: 90px;
-  text-align: center;
-  display: block;
-  /* padding-top: 20px; */
-}
-
-img.product-grid__img{
- width:50%;
- padding:auto;
- margin-left: auto;
- margin-right: auto;
-
-}
-
-p.productSpecial{
-color: #064FA5;
-font-size: 14px;
-margin: 0px;
-padding-top: 10px;
-}
-
-p.productNotSpecial{
-  color: transparent;
-  font-size: 14px;
-  margin: 0px;
-  padding-top: 10px;
-  }
-
-p.productTitle{
-font-size: 16px;
-font-weight: 500;
-margin: 0px;
-
-}
-
-p.productPrice{
-  font-size: 16px;
-  margin-top: 2px;
-  margin-bottom: 5px;
-
-}
-
-.promo{
-  /* width: 100%; */
-  background-color: #171717;
-  color: white;
-  text-align: left;
-  padding-left: 10px;
-
-
-}
-
-h1.promo {
-  padding-top: 20px;
-  margin-bottom: 0px;
-}
-
-h2.promo {
-  padding-top: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-
-}
-
-.btn-more-wrapper{
-  text-align: center;
-}
-
-button.btn-more {
-  background-color: transparent;
-  border: 1px solid #707070;
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 20px;
-  margin-top: 20px;
-  border-radius: 5px;
-}
-
-button.btn-puzzles {
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 5px;
-  color: white;
-  padding:10px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 5px;
-  width: 170px;
-}
-
-img.img-puzzle{
-  width: 50px;
-  float: right;
-  margin-right: 30px;
-  margin-top: -20px;
-}
-
-.productGrid{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 10rem);
-  grid-gap: 10px;
-  justify-content: center;
+  font-weight: 200;
 }
 
 
-.productAdd{
-  color: white;
-  background-color: black;
-  font-size: 14px;
-  padding: 5px;
-  width: 90%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
 
-.productLow{
-  margin-top: 5px;
-  font-size: 12px;
-}
-
-i.fa.fa-cart-arrow-down {
-  padding-right: 5px;
-}
-
-i.fa.fa-heart-o {
-  /* margin-top: 115px;
-  margin-left: 115px; */
-  font-size: 15px;
-  color: gray;
-
-}
-
-
-/* Style the navigation menu */
+* Style the navigation menu */
 .topnav {
     overflow: hidden;
     position: relative;
@@ -300,7 +96,315 @@ i.fa.fa-heart-o {
   .hamburger {
     background-color: tr;
   }
+  /* Style the active link (or home/logo) */
+  img {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0%;
+    height: 100%;
 
+  }
+
+/*promo banner*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.promoImages {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.slides {
+  display: none;
+}
+img {vertical-align: middle;}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  /* margin-top: -100px; */
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* .promoGrid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.promoContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img.thougtfully {
+  width: 100%;
+}
+
+.floatsamPromo {
+  width: 50vw;
+}
+
+.flotsam {
+  width: 50vw;
+  
+}
+
+ img.flotsam {
+  height: 125px;
+  object-fit: cover;
+
+ }  */
+
+
+/*promo div*/
+
+ .message {
+  display:grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+  background-color:#1F1F1F;
+  color: white;
+  font-size: 0.8rem;
+  padding: 3% 3% 3% 3%;
+  line-height: 18px;
+}
+
+/*product grid*/
+.homepage{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 520;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.productGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 10rem);
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+
+.productAdd{
+  color: white;
+  background-color:#1F1F1F;
+  font-size: 14px;
+  padding: 5px;
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.productLow{
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.productNotLow{
+  margin-top: 5px;
+  font-size: 12px;
+  color: transparent;
+}
+i.fa.fa-cart-arrow-down {
+  padding-right: 5px;
+}
+
+i.fa.fa-heart-o {
+  font-size: 15px;
+  color: gray;
+
+}
+
+.productTitle{
+  font-size: 16px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.productImgBox{
+  width: 150px;
+  background-color: #E3E3E3 ;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.productImg{
+    width: 90px;
+  height: 90px;
+  text-align: center;
+  display: block;
+}
+
+img.product-grid__img{
+ width:50%;
+ padding:auto;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+p.productSpecial{
+color: #064FA5;
+font-size: 14px;
+margin: 0px;
+padding-top: 10px;
+}
+
+p.productNotSpecial{
+  color: transparent;
+  font-size: 14px;
+  margin: 0px;
+  padding-top: 10px;
+  }
+
+p.productTitle{
+font-size: 16px;
+font-weight: 500;
+margin: 0px;
+
+}
+
+p.productPrice{
+  font-size: 16px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+
+}
+
+.btn-more-wrapper{
+  text-align: center;
+}
+
+button.btn-more {
+  background-color: transparent;
+  border: 1px solid #707070;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* puzzle promo */
+.promo{
+  background-color: #171717;
+  color: white;
+  padding-left: 10px;
+  margin: auto;
+  text-align: left;
+
+}
+
+.promoContainer {
+  width: 90%;
+  text-align: left;
+  margin: auto;
+
+}
+
+h1.promo {
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+h2.promo {
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+button.btn-puzzles {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding:10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  width: 170px;
+}
+
+img.img-puzzle{
+  width: 50px;
+  float: right;
+  margin-right: 30px;
+  margin-top: -20px;
+}
+
+/*footer */
   .footer-container{
     padding-top: 30px;
     padding-bottom: 40px;
@@ -324,3 +428,70 @@ i.fa.fa-heart-o {
     padding-left: 20px;
   }
 
+
+  @media only screen and (min-width: 768px) {
+
+    .promoContainer {
+      width: 700px;
+    }
+
+
+  @media only screen and (min-width: 1000px) {
+
+    .promoContainer {
+      width: 900px;
+    }
+  /* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color:transparent;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav a.hamburger {
+  display: none;
+
+}
+
+.topnav #myLinks {
+  display: block;
+  height: 60px;
+  background-color: black;
+}
+
+.myLinks {
+  margin-left: 20%;
+}
+.categoryRight {
+  margin-left: 100px;
+}
+
+.navbar {
+  background-color: black;
+}
+  }
+  }
+
+  
