@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.629" height="31.69" viewBox="0 0 45.629 31.69">
+  <path id="heart-regular" d="M27.241,33.927a8.857,8.857,0,0,0-12.028.9,8.851,8.851,0,0,0-12.028-.9,9.216,9.216,0,0,0-.63,13.34L12.979,58.044a3.09,3.09,0,0,0,4.469.006L27.871,47.273A9.223,9.223,0,0,0,27.241,33.927Zm-1.4,11.307L15.415,56.012a.242.242,0,0,1-.4,0L4.588,45.235a6.282,6.282,0,0,1,.434-9.088,5.962,5.962,0,0,1,8.112.633l2.08,2.153,2.08-2.153a5.958,5.958,0,0,1,8.112-.639A6.309,6.309,0,0,1,25.839,45.235Z" transform="translate(0 -27.313)"/>
+  <g id="Group_249" data-name="Group 249" transform="translate(25.224)">
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="10.203" cy="10.203" rx="10.203" ry="10.203" transform="translate(0 0)" fill="#e81d1d"/>
+    <text id="A_transformative_tri" data-name="A transformative tri" transform="translate(6.278 0)" fill="#fff" font-size="15" font-family="Heebo-Regular, Heebo" opacity="0.92"><tspan x="0" y="16">0</tspan></text>
+  </g>
+</svg>

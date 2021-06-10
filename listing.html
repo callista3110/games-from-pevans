@@ -5,34 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="listing.css" />
-    <script src="script.js"></script>
+    <script src="index.js"></script>
+
     <title>Games-From-Pevans</title>
 </head>
 <body>
-
     <div class="topnav">
-        <img class="logo" src="img/Pevanslogo.svg" alt="Games from pevans logo">
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-          <a href="#news">Board Games</a>
-          <a href="#contact">Card Games</a>
-          <a href="#about">Strategy Games</a>
-          <a href="#about">Puzzles</a>
-          <a href="#about">Blog</a>
-          <a href="#about">Sale</a>
+        <div class ="topnavWrap">
+        <div class ="topNavBar">
+            <span>
+        <img class="logo" src="img/Pevanslogo.svg" alt="Games from pevans logo"></span>
+        <span class="searchBarWrap">
+        <input class="searchBar" type="text" placeholder="Search.."></span>
+        <span class="icons">
+        <img class="icon"src="img/heartCount.svg"></img>
+        <img class="icon" src="img/cartCount.svg"></img>
+         </span>
         </div>
+
+    </div>
+        <div class="navbar">
+        <div class="myLinks" id="myLinks">
+         <input class="search" type="text" placeholder="Search..">
+          <a class="category" href="product.html">Board Games</a>
+          <a class="category" href="product.html">Card Games</a>
+          <a class="category" href="product.html">Strategy Games</a>
+          <a class="category" href="product.html">Puzzles</a>
+          <div class="categoryRight">
+          <a class="categoryR" href="product.html">Blog</a>
+          <a class="categoryR"  href="product.html">Sale</a>
+        </div>
+        </div>
+    </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
         <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
 
+
       <div class ="banner">
-        <h3>FREE SHIPPING FOR ORDERS OVER £50.00</h3>
+        <h3 class="banner">FREE SHIPPING FOR ORDERS OVER £50.00</h3>
         </div>
 
     <div class="content">
         <p class="breadcrumbs">Home > Boardgames</p>
+    
+        <div class="listingWrap">
 
     <div class="imgWrap">
     <div class="containerWrap">
@@ -40,6 +59,8 @@
         <img class="productImg1" src="img/21B.png" alt="21B Baker Street">
     </div>
 </div>
+
+
 <div class="containerWrap2">
 
     <div class="imgContainer2">
@@ -51,22 +72,29 @@
     </div>
 </div>
 
+<div class="productWrap">
 <p class="productSpecial">Pevan's Pick</p>
 <h1><span>221B Baker Street</span>
 <i class="fa fa-heart"></i></h1>
-<h2>£50.00</h2>
+<h2>£20.00</h2>
 <div class="quantity buttons_added">
     <input type="button" value="-" class="minus">
     <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
     <input type="button" value="+" class="plus">
 </div>
 <br>
-<a href="cart.html" class="productAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</a>	
+<a href="cart.html" class="cartAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</a>	
 
 <p>For 2-6 players | Suitable for ages 10+ | Playing time: 90 minutes</p>
 
 <p class="productDesc">221B Baker Street is the London address of the world’s most celebrated fictional detective, Sherlock Holmes, and his dedicated companion, Dr. Watson. In this game you start at 221B and travel through.. the streets and alleys of London picking up clues and attempting to solve the most intriguing cases Holmes and Watson have ever faced…</p>
+</div>
+</div>
 <br>
+<br>
+<br>
+
+
 <div class="reviewContainer">
 <div class="review">
     <h2 class="h2-review">Pevans' Review</h2>
@@ -78,9 +106,120 @@
  <img class="ratingImg" src="img/rating.svg" alt="Pevans' Rating">
 </div>
 
+
 </div>
 </div>
-<h1>Related Products</h1>
+<br>
+<h1 class="homepage">Related Products</h1>
+
+<div class="product-wrapper">
+    <div class="productGrid">
+        <div class="product product1">
+            <a href="listing.html" class="productImgBox">			
+                <img class="productImg" src="img/21B.png" alt="21B Baker Street" class="product-grid__img" />
+            </a>
+            <div class="productDetails">
+                <p class="productNotSpecial">Pevan's Pick</p>
+                <a href="listing.html" class="productTitle"><span>21B Baker Street </span><i class="fa fa-heart-o"></i> </a>
+                <p class="productPrice">£20.00</p>
+                <a href="cart.html" class="productAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</a>
+                <p class="productNotLow">Only 5 more left!</p>	
+            </div>
+        </div>
+
+        <div class="product product2">
+            <a href="listing.html" class="productImgBox">			
+                <img class="productImg" src="img/agra.png" alt="Agra" class="product-grid__img" />
+            </a>
+            <div class="productDetails">
+                <p class="productNotSpecial">Pevan's Pick</p>
+                <a href="listing.html" class="productTitle"><span>Product title </span><i class="fa fa-heart-o"></i> </a>
+                <p class="productPrice">£30.00</p>
+                <a href="cart.html" class="productAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</a>
+                <p class="productNotLow">Only 5 more left!</p>
+
+            </div>
+        </div>
+
+        <div class="product product3">
+            <a href="listing.html" class="productImgBox">			
+                <img class="productImg" src="img/bambo.png" alt="Bambo" class="product-grid__img" />
+            </a>
+            <div class="productDetails">
+                <p class="productSpecial">Pevan's Pick</p>
+                <a href="listing.html" class="productTitle"><span>Bambo </span><i class="fa fa-heart-o"></i> </a>
+                <p class="productPrice">£25.00</p>
+                <a href="cart.html" class="productAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</a>	
+                <p class="productLow">Only 5 more left!</p>
+            </div>
+        </div>
+
+        <div class="product product4">
+            <a href="listing.html" class="productImgBox">			
+                <img class="productImg" src="img/billabong.png" alt="Billabong" class="product-grid__img" />
+            </a>
+            <div class="productDetails">
+                <p class="productSpecial">Pevan's Pick</p>
+                <a href="listing.html" class="productTitle"><span>Billabong </span><i class="fa fa-heart-o"></i> </a>
+                <p class="productPrice">£20.00</p>
+                <a href="cart.html" class="productAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</a>	
+                <p class="productNotLow">Only 5 more left!</p>
+            </div>
+        </div>
+
+        <div class="product product5">
+            <a href="listing.html" class="productImgBox">			
+                <img class="productImg" src="img/bios.png" alt="Bios" class="product-grid__img" />
+            </a>
+            <div class="productDetails">
+                <p class="productNotSpecial">Pevan's Pick</p>
+                <a href="listing.html" class="productTitle"><span>Bios: Megafauna  </span><i class="fa fa-heart-o"></i> </a>
+                <p class="productPrice">£50.00</p>
+                <a href="cart.html" class="productAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</a>	
+                <p class="productLow">Only 5 more left!</p>
+            </div>
+        </div>
+
+        <div class="product product6">
+            <a href="listing.html" class="productImgBox">			
+                <img class="productImg" src="img/blitzkrieg.png" alt="Agra" class="product-grid__img" />
+            </a>
+            <div class="productDetails">
+                <p class="productSpecial">Pevan's Pick</p>
+                <a href="listing.html" class="productTitle"><span>Blitzkrieg! </span><i class="fa fa-heart-o"></i> </a>
+                <p class="productPrice">£28.00</p>
+                <a href="cart.html" class="productAdd"><i class="fa fa-cart-arrow-down"></i> Add to cart</a>
+                <p class="productNotLow">Only 5 more left!</p>	
+            </div>
+        </div>     
+    </div>
+
 </div>
+
+</div>
+<br>
+<br>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="logoContainer">
+    <img class="footer-logo" src="img/Pevanslogo.svg" alt="Games from pevans logo">
+        </div>
+    <div class="footerItem legals">
+          <h4>Legals</h4>
+            <li>License</li>
+            <li>Refund Policy</li>
+            <li>About Us</li>
+            <li>Contacts</li>
+    </div>
+
+    <div class ="footerItem contacts">
+          <h4>Contacts</h4>
+            <li>+1 234 567 89 10</li>
+            <li>pevans@gmail.com</li>
+    </div>
+</div>
+</footer>
+
+
 </body>
 </html>
