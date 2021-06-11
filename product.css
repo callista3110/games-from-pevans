@@ -57,8 +57,6 @@ h3 {
 
 
 /* Style the navigation menu */
-
-
 .topnav {
   overflow: hidden;
   position: relative; 
@@ -439,118 +437,121 @@ h1{
     margin-left: 10vw;
     margin-right: 10vw;
   }
-  
 
-
-  .promoContainer {
-        width: 900px;
-      }
-  
-  
-  .topnav {
-    overflow: hidden;
-    width: 100%;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color:transparent;
-  }
-  .search{
-    display: none;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  
-  .topnav a.hamburger {
-    display: none;
-  
-  }
-  
-  .topnav #myLinks {
-    display: block;
-    height: 50px;
-    background-color: #1F1F1F;
-    padding-top: 0px;
-  }
-  
-  
-  .categoryRight {
-    padding-left: 100px;
-  }
-  
-  .navbar {
-    background-color: #1F1F1F;
-  }
-  
-  .messageWrap {
-    background-color: #1F1F1F;
-  
-  }
-  .logo{
-    /* width: 80px; */
-    display: block;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 5px;
-    top: 0%;
-    float: none;
-  }
-  
-  img.icon {
-    margin-top: 0px;
-    margin-right: 20px;
-  }
-  
-  .topnav img{
-    text-align: right;
-    margin-top: 5px;
-    top: 0%;
-    height: 100%;
-  }
-  
-  .topnavWrap{
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  
-  }
-  
-  
-  
-  .topNavBar {
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    /* text-align: center; */
-  
-  }
-  
-  .searchBarWrap {
-    display: block;
-    
-  }
-  
-  .searchBar{
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 14px;
-    background-color:#e0dfdf;
-    color: black;
-    width: 500px;
-    border: none;
-    border-radius: 5px;
-    height: 30px;
-    margin-top:20px;
-  }
-}
+        .promoContainer {
+              width: 900px;
+            }
+        
+        
+        .topnav {
+          overflow: hidden;
+          width: 100%;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          background-color:transparent;
+        }
+        .search{
+          display: none;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+        
+        .topnav a.hamburger {
+          display: none;
+        
+        }
+        
+        .topnav #myLinks {
+          display: block;
+          height: 50px;
+          background-color: #1F1F1F;
+          padding-top: 0px;
+        }
+        
+        
+        .categoryRight {
+          padding-left: 100px;
+        }
+        
+        .navbar {
+          background-color: #1F1F1F;
+        }
+        
+        .messageWrap {
+          background-color: #1F1F1F;
+        
+        }
+        .logo{
+          /* width: 80px; */
+          display: block;
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-top: 5px;
+          top: 0%;
+          float: none;
+        }
+        
+        img.icon {
+          margin-top: 0px;
+          margin-right: 20px;
+        }
+        
+        .topnav img{
+          text-align: right;
+          margin-top: 5px;
+          top: 0%;
+          height: 100%;
+        }
+        
+        .topnavWrap{
+          width: 1000px;
+          margin-left: auto;
+          margin-right: auto;
+        
+        }
+        
+        
+        
+        .topNavBar {
+          display: grid;
+          grid-template-columns: 25% 50% 25%;
+          /* text-align: center; */
+        
+        }
+        
+        .searchBarWrap {
+          display: block;
+          
+        }
+        
+        .searchBar{
+          padding: 10px 20px;
+          text-decoration: none;
+          font-size: 14px;
+          background-color:#e0dfdf;
+          color: black;
+          width: 500px;
+          border: none;
+          border-radius: 5px;
+          height: 30px;
+          margin-top:20px;
+        }
+        
+          
 
 /*footer */
 .footer-container{

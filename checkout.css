@@ -182,10 +182,8 @@ img.icon{
 }
 
 .container {
-  /* background-color: #f2f2f2; */
   padding: 5px 20px 15px 20px;
   border: 1px solid #ccc;
-  /* border-radius: 3px; */
 }
 
 input[type=text] {
@@ -226,6 +224,30 @@ label {
 span.price {
   float: right;
   color: grey;
+}
+
+/*footer */
+.footer-container{
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #E7EAF0;
+  align-content: space-between;  }
+
+.logoContainer{
+  width: 300px;
+  text-align: center;
+}
+.footer-logo{
+  width: 200px;
+}
+
+.footerItem{
+  padding-left: 20px;
 }
 
 @media (max-width: 1000px) {
