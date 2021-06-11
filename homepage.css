@@ -43,16 +43,15 @@ h2{
 /* Style the navigation menu */
 
 
-.topnav {
-    /* overflow: hidden; */
-    /* position: relative; */
+  .topnav {
+     overflow: hidden;
+     position: relative; 
     width: 100%;
   }
 
   .topNavBar {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  /* text-align: center; */
 
 }
   
@@ -61,6 +60,7 @@ h2{
     display: none;
     background-color:#1F1F1F;
     padding-top: 20px;
+    height: 100vh;
 
   }
   
@@ -106,8 +106,6 @@ h2{
   }
   
   .topnav img{
-    margin-left: auto;
-    margin-right: auto; 
     text-align: right;
     margin-top: 5px;
     top: 0%;
@@ -200,8 +198,6 @@ h2{
   grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
   object-fit: fill;
   margin-bottom: -20px;
-
-
 }
 
 .flot{
@@ -209,34 +205,6 @@ h2{
   grid-template-rows: 50% 50%;
 }
 
-
-/*
-.promoContainer {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-img.thougtfully {
-  width: 100%;
-}
-
-.floatsamPromo {
-  width: 50vw;
-}
-
-.flotsam {
-  width: 50vw;
-  
-}
-
- img.flotsam {
-  height: 125px;
-  object-fit: cover;
-
- }  */
-
-
-/*promo div*/
 
  .message {
   display:grid;
@@ -246,6 +214,7 @@ img.thougtfully {
   color: white;
   font-size: 0.8rem;
   padding: 20px;
+  padding-top: 40px;
   line-height: 18px;
 }
 
@@ -463,7 +432,6 @@ img.img-puzzle{
 @media only screen and (min-width: 1000px) {
 
 
-
 .promoContainer {
       width: 900px;
     }
@@ -539,8 +507,6 @@ img.icon {
 }
 
 .topnav img{
-  margin-left: 0px;
-  margin-right: 0px; 
   text-align: right;
   margin-top: 5px;
   top: 0%;
