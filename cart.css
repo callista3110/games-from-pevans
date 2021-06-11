@@ -258,10 +258,7 @@ p.productPrice{
   color: black;
   font-size: 14px;
 }
-/* .continue :visited { text-decoration: none; color:black; }
-.continue a:hover { text-decoration: none;  }
-.continue a:focus { text-decoration: none; color:black; }
-.continue:hover, a:active { text-decoration: none;  } */
+
 
 #cart {
     margin-top: 20px;

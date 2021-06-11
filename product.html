@@ -8,15 +8,52 @@
     <title>Games-From-Pevans</title>
 </head>
 <body>
+    <div class="topnav">
+        <div class ="topnavWrap">
+        <div class ="topNavBar">
+            <span>
+        <img class="logo" src="img/Pevanslogo.svg" alt="Games from pevans logo"></span>
+        <span class="searchBarWrap">
+        <input class="searchBar" type="text" placeholder="Search.."></span>
+        <span class="icons">
+        <img class="icon"src="img/heartCount.svg"></img>
+        <img class="icon" src="img/cartCount.svg"></img>
+         </span>
+        </div>
+
+    </div>
+        <div class="navbar">
+        <div class="myLinks" id="myLinks">
+         <input class="search" type="text" placeholder="Search..">
+          <a class="category" href="product.html">Board Games</a>
+          <a class="category" href="product.html">Card Games</a>
+          <a class="category" href="product.html">Strategy Games</a>
+          <a class="category" href="product.html">Puzzles</a>
+          <div class="categoryRight">
+          <a class="categoryR" href="product.html">Blog</a>
+          <a class="categoryR"  href="product.html">Sale</a>
+        </div>
+        </div>
+    </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+
+      <div class ="banner">
+        <h3 class="banner">FREE SHIPPING FOR ORDERS OVER £50.00</h3>
+        </div>
+
     
     <div class ="productCategory">
-        <!-- <div class="categoryLayer"></div> -->
         <h1>Board Games</h1>
     </div>
 
     <div class="content">
 
-    <p class="breadcrumbs">Home > Boardgames</p>
+    <p class="breadcrumbs">Home > Board Games</p>
     <div class ="filter">
     <i class="fa fa-sliders"></i>
     <span>Filter and Sort</span>
@@ -29,8 +66,10 @@
     <div class="sidebarContainer container-stock">
         <h2>Show items out of stock?</h2>
         <div class="container">
+            <div class="buttonContainer">
         <button type="button" class="btn-show">Show</button>
         <button type="button" class="btn-hide">Hide</button>
+    </div>
     </div>
     </div>
     <div class="sidebarContainer container-price">
@@ -66,7 +105,10 @@
     </div>
 
     </div>
+    <div class="buttonContainer">
     <button type="button" class="btn-clear">Clear all filters</button>
+</div>
+
 </div>
 
 <div class="productWrapper">
@@ -325,10 +367,13 @@
             </div>
         </div>
         <br>
+    </div>
+
      <div class="bottomNav">
     <p>SHOWING 20 OF 178 ITEMS</p>
     <img class="slider" src="./img/slider.svg" alt="slider">
-    <button type="button" class="btn-more">View More Products</button>
+    <!-- <br> -->
+    <!-- <button type="button" class="btn-more">View More Products</button> -->
     <div class="paginationContainer">
     <div class="pagination">
         <a class="active" href="#">1</a>
@@ -341,10 +386,33 @@
     </div>
 
     </div>
-    </div>
 
 
 </div>
+
+<br></br>
+<br></br>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="logoContainer">
+    <img class="footer-logo" src="img/Pevanslogo.svg" alt="Games from pevans logo">
+        </div>
+    <div class="footerItem legals">
+          <h4>Legals</h4>
+            <li>License</li>
+            <li>Refund Policy</li>
+            <li>About Us</li>
+            <li>Contacts</li>
+    </div>
+
+    <div class ="footerItem contacts">
+          <h4>Contacts</h4>
+            <li>+1 234 567 89 10</li>
+            <li>pevans@gmail.com</li>
+    </div>
+</div>
+</footer>
 
 
 
